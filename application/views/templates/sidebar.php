@@ -51,7 +51,7 @@
           </li>
           <li class="nav-item">
             <a href="<?= base_url(); ?>services" class="nav-link">
-              <i class=""></i>
+              <i class="fas fa-hand-holding"></i>
               <p>
                 Services
               </p>
@@ -59,14 +59,14 @@
           </li>
           <li class="nav-item">
             <a href="<?= base_url(); ?>client" class="nav-link">
-              <i class=""></i>
+              <i class="far fa-handshake"></i>
               <p>
                 Client
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url(); ?>setting_contact" class="nav-link">
+            <a href="<?= base_url(); ?>setCon" class="nav-link">
               <i class="fas fa-id-card-alt"></i>
               <p>
                 Setting Contact
@@ -83,24 +83,22 @@
           </li>
           <li class="nav-item">
             <a href="<?= base_url(); ?>product" class="nav-link">
-              <i class=""></i>
+              <i class="fas fa-archive"></i>
               <p>
                 Product
               </p>
             </a>
           </li>
-          <br>
-          <br>
           
-          <li class="nav-item">
-            <a href="<?= base_url(); ?>password" class="nav-link">
+          <li class="nav-item mt-5">
+            <a href="<?= base_url(); ?>ganti_pass" class="nav-link">
               <!-- <i class="nav-icon fas fa-circle text-info"></i> -->
               <i class="far fa-edit"></i>
               <p>Ganti password</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url(); ?>auth" class="nav-link">
+            <a href="<?= base_url(); ?>login" class="nav-link">
               <!-- <i class="nav-icon fas fa-circle text-danger"></i> -->
               <i class="fas fa-sign-out-alt"></i>
               <p>Logout</p>
